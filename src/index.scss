@@ -1,0 +1,32 @@
+.pl-5 {
+  padding-left: 2rem !important;
+}
+
+.ml-3 {
+  margin-left: 1rem !important;
+}
+
+.trashcan {
+  border: unset;
+  background: transparent;
+  color: red;
+
+
+  &:hover,
+  &:active {
+    color: black;
+  }
+}
+
+
+.editpen {
+  border: unset;
+  background: transparent;
+  color: green;
+
+
+  &:hover,
+  &:active {
+    color: black;
+  }
+}
